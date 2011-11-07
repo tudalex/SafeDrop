@@ -4,16 +4,18 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui webkit
 
 TARGET = SafeDrop
 TEMPLATE = app
 
 
 SOURCES += main.cpp \
-    watch.cpp
+    watch.cpp \
+    googleservicesauth.cpp
 
 HEADERS  += \
-    watch.h
+    watch.h \
+    googleservicesauth.h
 
 FORMS    +=
