@@ -4,8 +4,8 @@
 Watch::Watch(QObject *parent) :
     QObject(parent)
 {
-    root_path= QString("C:/work");
-    mirror_path = QString("C:/work2");
+    root_path= QString("/Users/tudalex/testing");
+    mirror_path = QString("/Users/tudalex/testing2");
     //TODO: Only works wit absolute paths
     m_tray = new QSystemTrayIcon();
     m_tray->show();

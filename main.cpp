@@ -1,4 +1,4 @@
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <QSystemTrayIcon>
 #include <QFileSystemWatcher>
 #include <QDebug>

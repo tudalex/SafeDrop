@@ -2,7 +2,7 @@
 #define GOOGLESERVICESAUTH_H
 
 #include <QObject>
-#include <QtWebKit>
+#include <QtWebKitWidgets>
 
 class GoogleServicesAuth : public QObject
 {
